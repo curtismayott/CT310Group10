@@ -8,8 +8,9 @@
 	</head>
 	<body>
 		<div class="top-wrap">
-			<h1>Social Networking Platform</h1>
+			
 			<nav>
+				<h1 id="header-label">Social Networking Platform</h1>
 				<ul>
 					<li><a href="./index.html" id="home-nav">Home</a></li>
 					<li><a href="" id="search-nav">Search</a></li>
@@ -20,14 +21,37 @@
 		</div>
 		<div class="body-wrap">
 			<div class="left-wrap">
-			
+				<!-- site information - temp info -->
+				<li style="color:white">thing</li>
+				<li style="color:white">thing</li>
+				<li style="color:white">thing</li>
+				<li style="color:white">thing</li>
+				<li style="color:white">thing</li>
+				<li style="color:white">thing</li>
+				<li style="color:white">thing</li>
+				<li style="color:white">thing</li>
+				<li style="color:white">thing</li>
 			</div>
 			<div class="right-wrap">
-
+				<!-- list of users - temp info-->
+				<ul id="home-user-list">
+					<li>thing</li>
+					<li>thing</li>
+					<li>thing</li>
+					<li>thing</li>
+					<li>thing</li>
+					<li>thing</li>
+					<li>thing</li>
+					<li>thing</li>
+					<li>thing</li>
+				</ul>
 			</div>
 		</div>
 	</body>
 	<footer>
-
+		<div>
+			<p>David Sahud, Brandi Megrew, Curtis Mayott</p>
+			<p>February 22, 2015</p>
+		</div>
 	</footer>
 </html>

@@ -1,0 +1,34 @@
+4 Required Pages:
+Site Homepage
+A homepage for the entire social networking site.
+User 1 Profile
+A user profile page with text profile description and an image.
+User 2 Profile
+A user profile page with text profile description and an image.
+Search Results Page
+A page that currently list all users but also has a form to perform a user search.
+
+Requirements:
+Your website should have a common header and footer on all pages with page specific information added to the header.
+The homepage content is divided into two columns. Left column has information about the website. Right column shows thumbnails of the images of all members present in the network (can be shown as a list).
+Thumbnail images are links to profile pages of the respective user.
+The profile page has a higher resolution picture from which the thumbnail is derived.
+The contents of the profile page must have the summary and interests of a particular user and are fetched from a text file.
+The summary and interests of the users is modifiable from the web page. The respective changes are reflected in the text file.
+The search results page lists a thumbnail and name of all users. Although we won't implement search for this part, there should still be a form
+
+Here are constraints on the implementation:
+Page layout to be developed using PHP and HTML.
+Images and friends list should use the float property.
+Shared components like the header, navigation and footer are implemented using the PHP include command.
+For the personal profile or summary of the user, use simple read/write of an entire file (text etc.). Sanitize user input to this each time a change is made.
+Content changes are only accepted from IP addresses within a small set of whitelisted addresses. This will include CS Department domain.
+
+Curtis::
+working on header css.
+
+Brandi::
+
+
+David::
+

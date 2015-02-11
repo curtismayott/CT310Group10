@@ -1,0 +1,54 @@
+.top-wrap{
+	background-color:#0099FF;
+	color:#663300;
+	width:100%;
+	padding:10px;
+	position:fixed;
+}
+.left-wrap{
+	height:100vh;
+	width:50%;
+	float:left;
+	background-color:black;
+}
+.right-wrap{
+	height:100vh;
+	width:50%;
+	float:left;
+	background-color:purple;
+}
+h1{
+	padding:5px;
+}
+nav ul li{
+	border:	4px groove #663300;
+	width:7%;
+	display:inline-block;
+	margin:5px;
+	padding:5px;
+	text-align:center;
+} 
+a{
+	text-decoration:none;
+	color:white;
+}
+nav ul li a:hover{
+	color:#0099FF;
+}
+nav ul li:hover{
+	background-color:#663300;
+}
+nav ul li:visited{
+	background-color:purple;
+}
+nav ul li:active{
+	background-color:#663300;
+}
+
+#sign-in-nav{
+	
+}
+
+*,html{
+	margin:0;
+}

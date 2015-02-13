@@ -1,4 +1,8 @@
-<!-- homepage for social networking site -->
+<!-- homepage for social networking site 
+change ip's:
+129.82.*
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -8,12 +12,12 @@
 	</head>
 	<body>
 		<div class="top-wrap">
-			
+			<h1 id="header-label">Social Networking Platform</h1>
+			<h3>Home Page</h3>
 			<nav>
-				<h1 id="header-label">Social Networking Platform</h1>
 				<ul>
 					<li><a href="./index.html" id="home-nav">Home</a></li>
-					<li><a href="" id="search-nav">Search</a></li>
+					<li><a href="./search.php" id="search-nav">Search</a></li>
 					<li><a href="" id="your-page-nav">Your Page</a></li>
 					<li><a href="" id="sign-in-nav">Sign In</a></li>
 				</ul>

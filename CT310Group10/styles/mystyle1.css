@@ -51,6 +51,7 @@ nav ul li{
 nav ul{
 	float:right;
 	margin-right:5%;
+	margin-top:-3%;
 }
 #header-label{
 	width:50%;

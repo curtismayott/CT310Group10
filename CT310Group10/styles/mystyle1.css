@@ -5,32 +5,34 @@
 	background-color:#0099FF;
 	color:#663300;
 	width:100%;
-	padding:10px;
+	padding:1%;
+	float: top;
 	position:fixed;
-	height:12vh;
+	height:10vh;
 }
 .left-wrap{
-	margin-top:15vh;
-	margin-bottom:6vh;
+	margin-top:11vh;
 	height:100vh;
-	width:68.5%;
+	width:70%;
 	float:left;
 	background-color:black;
-	padding:10px;
+	padding:2%;
+	overflow: auto;
 }
 .right-wrap{
-	margin-top:15vh;
-	margin-bottom:6vh;
+	margin-top:11vh;
 	height:100vh;
-	width:28.5%;
+	width:22%;
 	float:left;
 	background-color:purple;
-	padding:10px;
+	padding:2%;
+	overflow: auto;
 }
 footer div{
 	text-align:right;
 	background-color:#0099FF;
 	color:#663300;
+	float: bottom;
 	position:fixed;
 	margin-top:94vh;
 	height:6vh;

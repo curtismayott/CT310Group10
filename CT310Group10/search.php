@@ -15,11 +15,13 @@ change ip's:
 		<link rel="stylesheet" type="text/css" href="./styles/mystyle1.css" />
 	</head>
 	<body>
+		<!--
 		<?php
 			$ip = $_SERVER["REMOTE_ADDR"];
 			$ipArray = explode(".", $ip);
 			print_r($ipArray);
 		?>
+		-->
 		<div class="top-wrap">
 			<h1 id="header-label">Social Networking Platform</h1>
 			<h3>Search</h3>

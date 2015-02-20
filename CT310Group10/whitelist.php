@@ -47,7 +47,7 @@ Todo:
 	
 	//updating bio file
 	if (isset($_POST['update'])) {//update button has been hit
-	$content = $_POST['text_box'];
+	$content = strip_tags($_POST['text_box']);
 	$oneText = "UserOneBio.txt";
 	$oneWrite = fopen($oneText,'w') or die("file not found");
 	$items = $content;

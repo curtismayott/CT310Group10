@@ -34,7 +34,7 @@ Todo:
 	//updating bio file
 	if (isset($_POST['update'])) {//update button has been hit
 		if($edit == 1){
-		$content = strip_tags($_POST['text_box']);
+		$content = strip_tags(nl2br($_POST['text_box']), '<br>');
 		$oneText = "UserOneBio.txt";
 		$oneWrite = fopen($oneText,'w') or die("file not found");
 		$items = $content;
@@ -51,7 +51,7 @@ Todo:
 	if(!file_exists($oneText)) touch($oneText); //if file doesn't exit make one
 	$oneOpen = fopen($oneText,'r'); 
 	if(filesize($oneText) > 0){
-		$fileContents = fread($oneOpen,filesize($oneText));
+		$fileContents = nl2br(fread($oneOpen,filesize($oneText)));
 	}else{
 		$fileContents = "";
 		//file is empty must still define fileContents
@@ -61,7 +61,7 @@ Todo:
 	?>
    <p>TextBox</p>
    <form method="post" action="whitelist.php">
-      Bio: <br><textarea name="text_box" rows="5" cols="40" placeholder="Enter Bio Info Here"><?php echo strip_tags($fileContents); ?></textarea><br/>
+      Bio: <br><textarea name="text_box" rows="5" cols="40" placeholder="Enter Bio Info Here"><?php echo strip_tags($fileContents, '<br>'); ?></textarea><br/>
      <input type="submit" value="Update" name="update">
    </form>
 </body>

@@ -35,6 +35,7 @@ Profile pages and corresponding .css file
 Read and write of profile information
 Sanitize user input
 ip checking
+search.php and search.css
 
 David::
 working on allowing bio's to be edited by selected ip addresses

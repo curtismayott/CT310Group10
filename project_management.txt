@@ -38,7 +38,14 @@ ip checking
 search.php and search.css
 
 David::
-working on allowing bio's to be edited by selected ip addresses
+read/write files
+edit by selected ip addresses (129.82..)
+output text in textbox when editing
+fixed errors when outputing empty files
+fixed deleted text bug
+
+
+
 
 NEED::
 Implement search(not completely necessary for this assignment)

@@ -3,14 +3,13 @@ $page = 'Search';
 include 'header.php';
 ?>
 
-<style scoped>
+<div class="body-wrap">
+	<style scoped>
 @import './styles/search.css';	
 </style>
-
-<div class="body-wrap">
 	<div class="search">
 		<div class="search-body">
-			<form action="<?php echo $PHP_SELF ?>" method="post">
+			<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
 				<input type="text" name="search">
 				<div class="button">
 					<input type="submit" name="submit" value='Submit'>
@@ -20,7 +19,7 @@ include 'header.php';
 	</div>
 	<div class="results">
 		<!-- list of users - temp info-->
-		<h3>Results</h>
+		<h3>Results</h3>
 			<div class="results-body">
 				<ul id="home-user-list">
 					<li><a href="user1.php"><img src="./img/user1.png" alt="A picture of Mario"></a>Mario<br><br></li>

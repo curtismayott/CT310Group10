@@ -42,7 +42,7 @@ fclose($file);
 @import './styles/edit.css';	
 </style>
 <div class="block">
-	<form action="<?php echo $PHP_SELF ?>" method="post">
+	<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
 		<textarea name='interests' id="styled"><?=$text?></textarea><br/>
 		<div class="button">
 			<input type="submit" name="submit" value='Submit'>

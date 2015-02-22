@@ -34,10 +34,11 @@ Thumbnail images and links
 Profile pages and corresponding .css file
 Read and write of profile information
 Sanitize user input
+ip checking
 
 David::
 working on allowing bio's to be edited by selected ip addresses
 
 NEED::
 Search results page which lists a thumbnail and name of all users
-Implent: "Content changes are only accepted from IP addresses within a small set of whitelisted addresses. This will include CS Department domain."
+test ip checking with school ips (location of ip checking is in editBio.php and editLikes.php)

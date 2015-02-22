@@ -3,6 +3,7 @@ $page = 'Bio Editing';
 include 'header.php';
 ?>
 <?php
+//ip checking
 //my ip aka localhost
 $allowedip = '127.0.0.1';
 $ip = $_SERVER['REMOTE_ADDR'];

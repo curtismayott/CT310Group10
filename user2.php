@@ -1,4 +1,6 @@
 <?php
+session_start();
+$_SESSION['user']='user2';
 $page = 'Luigi';
 include 'header.php';
 ?>
@@ -11,59 +13,29 @@ include 'header.php';
 		<div class="summary-body">
 			<!-- site information - temp info -->
 			<img src="./img/user2.png" alt="A picture of Mario">
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-				Vestibulum at consectetur ligula. Cras sodales nibh turpis, tristique viverra mi consectetur 
-				sit amet. Donec sapien urna, convallis vel laoreet sit amet, rutrum eu nisi. Sed quis blandit 
-				leo. Etiam accumsan id leo at malesuada. Proin porttitor sapien neque, in scelerisque sapien 
-				congue sed. Suspendisse rhoncus odio quis sem laoreet, quis interdum leo consectetur. Duis 
-				tristique sapien augue, sit amet commodo lacus tempus quis. Pellentesque eget maximus est, 
-				vitae volutpat turpis. Sed ultrices augue eget ante elementum euismod. Vestibulum mollis arcu 
-				pharetra, fermentum lorem feugiat, tristique felis.</p><br>
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-				Vestibulum at consectetur ligula. Cras sodales nibh turpis, tristique viverra mi consectetur 
-				sit amet. Donec sapien urna, convallis vel laoreet sit amet, rutrum eu nisi. Sed quis blandit 
-				leo. Etiam accumsan id leo at malesuada. Proin porttitor sapien neque, in scelerisque sapien 
-				congue sed. Suspendisse rhoncus odio quis sem laoreet, quis interdum leo consectetur. Duis 
-				tristique sapien augue, sit amet commodo lacus tempus quis. Pellentesque eget maximus est, 
-				vitae volutpat turpis. Sed ultrices augue eget ante elementum euismod. Vestibulum mollis arcu 
-				pharetra, fermentum lorem feugiat, tristique felis.</p><br>
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-				Vestibulum at consectetur ligula. Cras sodales nibh turpis, tristique viverra mi consectetur 
-				sit amet. Donec sapien urna, convallis vel laoreet sit amet, rutrum eu nisi. Sed quis blandit 
-				leo. Etiam accumsan id leo at malesuada. Proin porttitor sapien neque, in scelerisque sapien 
-				congue sed. Suspendisse rhoncus odio quis sem laoreet, quis interdum leo consectetur. Duis 
-				tristique sapien augue, sit amet commodo lacus tempus quis. Pellentesque eget maximus est, 
-				vitae volutpat turpis. Sed ultrices augue eget ante elementum euismod. Vestibulum mollis arcu 
-				pharetra, fermentum lorem feugiat, tristique felis.</p>
+			<?php
+			$file = "UserTwoBio.txt";
+			include 'read.php';
+			?>
+			<?php
+			$_SESSION['bio']='UserTwoBio.txt';
+			$editing = "Bio";
+			include 'write.php';
+			?>
 		</div>
 	</div>
 	<div class="interest">
 		<h3>Interests</h3>
 		<div class="interest-body">
-		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-				Vestibulum at consectetur ligula. Cras sodales nibh turpis, tristique viverra mi consectetur 
-				sit amet. Donec sapien urna, convallis vel laoreet sit amet, rutrum eu nisi. Sed quis blandit 
-				leo. Etiam accumsan id leo at malesuada. Proin porttitor sapien neque, in scelerisque sapien 
-				congue sed. Suspendisse rhoncus odio quis sem laoreet, quis interdum leo consectetur. Duis 
-				tristique sapien augue, sit amet commodo lacus tempus quis. Pellentesque eget maximus est, 
-				vitae volutpat turpis. Sed ultrices augue eget ante elementum euismod. Vestibulum mollis arcu 
-				pharetra, fermentum lorem feugiat, tristique felis.</p><br>
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-				Vestibulum at consectetur ligula. Cras sodales nibh turpis, tristique viverra mi consectetur 
-				sit amet. Donec sapien urna, convallis vel laoreet sit amet, rutrum eu nisi. Sed quis blandit 
-				leo. Etiam accumsan id leo at malesuada. Proin porttitor sapien neque, in scelerisque sapien 
-				congue sed. Suspendisse rhoncus odio quis sem laoreet, quis interdum leo consectetur. Duis 
-				tristique sapien augue, sit amet commodo lacus tempus quis. Pellentesque eget maximus est, 
-				vitae volutpat turpis. Sed ultrices augue eget ante elementum euismod. Vestibulum mollis arcu 
-				pharetra, fermentum lorem feugiat, tristique felis.</p><br>
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-				Vestibulum at consectetur ligula. Cras sodales nibh turpis, tristique viverra mi consectetur 
-				sit amet. Donec sapien urna, convallis vel laoreet sit amet, rutrum eu nisi. Sed quis blandit 
-				leo. Etiam accumsan id leo at malesuada. Proin porttitor sapien neque, in scelerisque sapien 
-				congue sed. Suspendisse rhoncus odio quis sem laoreet, quis interdum leo consectetur. Duis 
-				tristique sapien augue, sit amet commodo lacus tempus quis. Pellentesque eget maximus est, 
-				vitae volutpat turpis. Sed ultrices augue eget ante elementum euismod. Vestibulum mollis arcu 
-				pharetra, fermentum lorem feugiat, tristique felis.</p>
+			<?php
+			$file = "user2likes.txt";
+			include 'read.php';
+			?>
+			<?php
+			$_SESSION['interest']='user2likes.txt';
+			$editing = "Likes";
+			include 'write.php';
+			?>
 		</div>
 	</div>
 </div>

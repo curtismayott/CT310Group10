@@ -1,0 +1,40 @@
+.body-wrap{
+	background: url("../../img/mario%20left.png") repeat;
+	background-size: 40%;
+	background-color:#0082C3;
+	margin-top:11vh;
+	min-height:100vh;
+	width:100%;
+	float:left;
+	overflow: auto;
+}
+div.block {
+	min-height:30vh;
+	width:96%;
+	float:left;
+	padding:2%;
+	overflow: auto;
+	position: relative;
+	color:red;
+}
+textarea#styled {
+	width: 90%;
+	height: 50vh;
+	border: 3px solid #ed8223;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+}
+.button input[type="submit"] {
+	background-color:#ed8223;
+	color:#fff;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:18px;
+	line-height:30px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border:0;
+	text-shadow:#C17C3A 0 -1px 0;
+	width:120px;
+	height:32px
+}     

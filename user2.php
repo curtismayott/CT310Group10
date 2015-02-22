@@ -4,10 +4,11 @@ $_SESSION['user']='user2';
 $page = 'Luigi';
 include 'header.php';
 ?>
-<style type="text/css">
+
+<div class="body-wrap">
+	<style scoped>
 @import './styles/userpage.css';	
 </style>
-<div class="body-wrap">
 	<div class="summary">
 		<h3>About Me</h3>
 		<div class="summary-body">

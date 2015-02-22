@@ -23,5 +23,5 @@
 			</nav>
 		</div>
 			
-			<img src="./img/mario border.png" alt="page divider of mario mushrooms">
+			<img src="./img/mario%20border.png" alt="page divider of mario mushrooms">
 	</div>

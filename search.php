@@ -3,7 +3,7 @@ $page = 'Search';
 include 'header.php';
 ?>
 
-<style type="text/css">
+<style scoped>
 @import './styles/search.css';	
 </style>
 

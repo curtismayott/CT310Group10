@@ -15,9 +15,6 @@ elseif (!preg_match('/^10.84/', $ip))
     exit;
 }
 ?>
-<style type="text/css">
-@import './styles/edit.css';	
-</style>
 
 <?php
 session_start();
@@ -41,6 +38,9 @@ if($_POST["interests"]) {
 fclose($file);
 ?>
 <div class="body-wrap">
+	<style scoped>
+@import './styles/edit.css';	
+</style>
 <div class="block">
 	<form action="<?php echo $PHP_SELF ?>" method="post">
 		<textarea name='interests' id="styled"><?=$text?></textarea><br/>

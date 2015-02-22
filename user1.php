@@ -5,7 +5,7 @@ $page = 'Mario';
 include 'header.php';
 ?>
 <style type="text/css">
-@import '/styles/userpage.css';	
+@import './styles/userpage.css';	
 </style>
 <div class="body-wrap">
 	<div class="summary">

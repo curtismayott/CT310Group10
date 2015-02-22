@@ -16,7 +16,7 @@ elseif (!preg_match('/^10.84/', $ip))
 }
 ?>
 <style type="text/css">
-@import '/styles/edit.css';	
+@import './styles/edit.css';	
 </style>
 
 <?php

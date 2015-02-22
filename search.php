@@ -4,7 +4,7 @@ include 'header.php';
 ?>
 
 <style type="text/css">
-@import '/styles/search.css';	
+@import './styles/search.css';	
 </style>
 
 <div class="body-wrap">

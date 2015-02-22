@@ -4,7 +4,7 @@ include 'header.php';
 ?>
 
 <style type="text/css">
-@import '/styles/homepage.css';	
+@import './styles/homepage.css';	
 </style>
 
 <div class="body-wrap">

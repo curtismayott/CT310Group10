@@ -2,7 +2,7 @@
 	color: blue;
 }
 .left-wrap{
-	background: url("../../img/mario%20left.png") repeat;
+	background: url("../img/mario%20left.png") repeat;
 	background-size: 40%;
 	background-color:#0082C3;
 	margin-top:11vh;
@@ -23,7 +23,7 @@ div.left-body{
 
 }
 .right-wrap{
-	background: url("../../img/mario%20right.png") repeat;
+	background: url("../img/mario%20right.png") repeat;
 	background-size: 100%;
 	background-color:#3FBFFF;
 	margin-top:11vh;

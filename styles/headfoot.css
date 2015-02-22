@@ -2,7 +2,7 @@
 	margin:0;
 }
 .top-wrap{
-	background: url("../../img/mario%20header.png") repeat;
+	background: url("../img/mario%20header.png") repeat;
 	background-size: 100% 100%;
 	background-color:#BDDEED;
 	color:#0E7434;
@@ -31,7 +31,7 @@ div.border img{
 	
 }
 footer div{
-	background: url("../../img/mario%20footer.png") repeat;
+	background: url("../img/mario%20footer.png") repeat;
 	background-color:purple;
 	text-align:right;
 	color:#663300;

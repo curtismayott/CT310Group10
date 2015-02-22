@@ -17,6 +17,9 @@ div.block {
 	position: relative;
 	color:red;
 }
+div.denied {
+	text-align: center;
+}
 textarea#styled {
 	width: 90%;
 	height: 50vh;

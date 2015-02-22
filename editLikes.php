@@ -5,7 +5,7 @@ include 'header.php';
 <?php
 //ip checking
 //my ip aka localhost
-$allowedip = '127.0.0.1';
+$allowedip = '127.0.0.2';
 $ip = $_SERVER['REMOTE_ADDR'];
 if ($ip == $allowedip);
 //need to check if is correct with school ips

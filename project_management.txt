@@ -37,3 +37,7 @@ Sanitize user input
 
 David::
 working on allowing bio's to be edited by selected ip addresses
+
+NEED::
+Search results page which lists a thumbnail and name of all users
+Implent: "Content changes are only accepted from IP addresses within a small set of whitelisted addresses. This will include CS Department domain."

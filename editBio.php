@@ -9,7 +9,7 @@ $allowedip = '127.0.0.1';
 $ip = $_SERVER['REMOTE_ADDR'];
 if ($ip == $allowedip);
 //need to check if is correct with school ips
-elseif (!preg_match('/^10.84/', $ip))  
+elseif (!preg_match('/^129.82/', $ip))  
 {
     header('Location: notallowed.php');
     exit;

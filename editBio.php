@@ -43,7 +43,7 @@ fclose($file);
 </style>
 <div class="block">
 	<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
-		<textarea name='bio' id="styled"><?php $text?></textarea><br/>
+		<textarea name='bio' id="styled"><?php echo $text?></textarea><br/>
 		<div class="button">
 			<input type="submit" name="submit" value='Submit'>
 		</div>

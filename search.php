@@ -10,7 +10,7 @@ include 'header.php';
 <div class="body-wrap">
 	<div class="search">
 		<div class="search-body">
-			<form action="<?=$PHP_SELF?>" method="post">
+			<form action="<?php echo $PHP_SELF ?>" method="post">
 				<input type="text" name="search">
 				<div class="button">
 					<input type="submit" name="submit" value='Submit'>

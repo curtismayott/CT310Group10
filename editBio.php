@@ -42,7 +42,7 @@ fclose($file);
 ?>
 <div class="body-wrap">
 <div class="block">
-	<form action="<?=$PHP_SELF?>" method="post">
+	<form action="<?php echo $PHP_SELF ?>" method="post">
 		<textarea name='bio' id="styled"><?=$text?></textarea><br/>
 		<div class="button">
 			<input type="submit" name="submit" value='Submit'>

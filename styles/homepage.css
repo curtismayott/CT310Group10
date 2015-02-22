@@ -16,7 +16,6 @@ div.left-body{
 	background-color: white;
 	background:rgba(255,255,255,0.3);
 	color:#0155B5;
-	position: relative;
 	min-height:80vh;
 	padding:2%;
 	overflow: auto;
@@ -51,7 +50,6 @@ div.right-body{
 	background-color: white;
 	background:rgba(255,255,255,0.3);
 	color:#FC0019;
-	position: relative;
 	min-height:80vh;
 	padding:2%;
 	overflow: auto;

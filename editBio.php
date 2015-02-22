@@ -35,8 +35,6 @@ if($_POST["bio"]) {
 		exit;
 	}
 }
-
-fclose($file);
 ?>
 <div class="body-wrap">
 	<style scoped>

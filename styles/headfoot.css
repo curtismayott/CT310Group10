@@ -1,0 +1,81 @@
+*,html{
+	margin:0;
+}
+.top-wrap{
+	background: url("../../img/mario%20header.png") repeat;
+	background-size: 100% 100%;
+	background-color:#BDDEED;
+	color:#0E7434;
+	width:102%;
+	padding:0;
+	float: top;
+	position:fixed;
+	height:12vh;
+	overflow: auto;
+	z-index: 1000;
+
+}
+div.border {
+	width:102%;
+	padding:0;
+	position:fixed;
+	height:12.75vh;
+}
+div.border img{
+	border: 0;
+	margin: 0;
+	width:100%;
+	position: absolute;
+	bottom: 0;
+	z-index: 1001;
+	
+}
+footer div{
+	background: url("../../img/mario%20footer.png") repeat;
+	background-color:purple;
+	text-align:right;
+	color:#663300;
+	float: bottom;
+	position:fixed;
+	margin-top:94vh;
+	padding-top: 8px;
+	height:6vh;
+	width:100%;
+}
+
+ul{
+	list-style-type:none;
+}
+nav ul li{
+	border:	4px groove #0E7434;
+	width:7%;
+	display:inline;
+	margin:5px;
+	padding:5px;
+	text-align:center;
+}
+nav ul{
+	float:right;
+	margin-right:5%;
+	margin-top:-3%;
+}
+#header-label{
+	width:50%;
+	padding:5px;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+nav ul li a:hover{
+	color:#0099FF;
+}
+nav ul li:hover{
+	background-color:#BFAA6B;
+}
+nav ul li:visited{
+	background-color:purple;
+}
+nav ul li:active{
+	background-color:green;
+}

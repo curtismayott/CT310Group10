@@ -1,0 +1,56 @@
+.left-wrap{
+	background: url("../../img/mario%20left.png") repeat;
+	background-size: 40%;
+	background-color:#0082C3;
+	margin-top:11vh;
+	min-height:100vh;
+	width:70%;
+	float:left;
+	padding:2%;
+	overflow: auto;
+}
+div.left-body{
+	background-color: white;
+	background:rgba(255,255,255,0.3);
+	color:#0155B5;
+	position: relative;
+	min-height:80vh;
+	padding:2%;
+	overflow: auto;
+
+}
+.right-wrap{
+	background: url("../../img/mario%20right.png") repeat;
+	background-size: 100%;
+	background-color:#3FBFFF;
+	margin-top:11vh;
+	min-height:100vh;
+	width:22%;
+	float:right;
+	padding:2%;
+	overflow: auto;
+}
+div.right-wrap img{
+	border-width:medium;
+	border-color:#FCDE0C;
+	border-style:solid;
+	margin-top:10px;
+	width: 50%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	float: top;
+}
+div.right-body{
+	background-color: white;
+	background:rgba(255,255,255,0.3);
+	color:#FC0019;
+	position: relative;
+	min-height:80vh;
+	padding:2%;
+	overflow: auto;
+
+}

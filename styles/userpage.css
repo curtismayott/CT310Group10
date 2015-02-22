@@ -1,0 +1,56 @@
+.body-wrap{
+	background: url("../../img/mario%20left.png") repeat;
+	background-size: 40%;
+	background-color:#0082C3;
+	margin-top:11vh;
+	min-height:100vh;
+	width:100%;
+	float:left;
+	overflow: auto;
+}
+.summary{
+	min-height:30vh;
+	width:96%;
+	float:left;
+	padding:2%;
+	overflow: auto;
+	position: relative;
+}
+div.summary-body{
+	background-color: white;
+	background:rgba(255,255,255,0.3);
+	color:#0155B5;
+	position: relative;
+	min-height:inherit;
+	padding:2%;
+	overflow: auto;
+
+}
+div.summary img{
+	border-width:medium;
+	border-color:#FCDE0C;
+	border-style:solid;
+	width: 25%;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+.interest{
+	min-height:30vh;
+	width:96%;
+	float:left;
+	padding:2%;
+	overflow: auto;
+	position: relative;
+	margin-bottom: 5%;
+}
+div.interest-body{
+	background-color: white;
+	background:rgba(255,255,255,0.3);
+	color:#FC0019;
+	position: relative;
+	min-height:inherit;
+	padding:2%;
+	overflow: auto;
+
+}

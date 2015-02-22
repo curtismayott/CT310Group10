@@ -9,7 +9,7 @@ $allowedip = '127.0.0.1';
 $ip = $_SERVER['REMOTE_ADDR'];
 if ($ip == $allowedip);
 //need to check if is correct with school ips
-elseif (!preg_match('/^10.84/', $ip))  
+elseif (!preg_match('/^129.82/', $ip))   
 {
     header('Location: notallowed.php');
     exit;
@@ -23,19 +23,18 @@ $file = fopen($fn, "r");
 $size = filesize($fn);
 $text = fread($file, $size);
 fclose($file);
-$file = fopen($fn, "w");
 
 if($_POST["interests"]) {
-	fwrite($file, strip_tags($_POST["interests"]));
-	$page = $_SESSION['user'].".php";
 	if(isset($_POST['submit']))
 	{
+		$file = fopen($fn, "w");
+		fwrite($file, strip_tags($_POST["interests"]));
+		fclose($file);
+		$page = $_SESSION['user'].".php";
 		header("Location: $page");
 		exit;
 	}
 }
-
-fclose($file);
 ?>
 <div class="body-wrap">
 	<style scoped>
@@ -43,12 +42,12 @@ fclose($file);
 </style>
 <div class="block">
 	<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
-		<textarea name='interests' id="styled"><?=$text?></textarea><br/>
+		<textarea name='interests' id="styled"><?php echo strip_tags($text)?></textarea><br/>
 		<div class="button">
 			<input type="submit" name="submit" value='Submit'>
 		</div>
 	</form>
-	<h3>Warning: Using back button will result in deleted information.</h3>
+	
 </div>
 </div>
 

@@ -23,19 +23,18 @@ $file = fopen($fn, "r");
 $size = filesize($fn);
 $text = fread($file, $size);
 fclose($file);
-$file = fopen($fn, "w");
 
 if($_POST["bio"]) {
-	fwrite($file, strip_tags($_POST["bio"]));
-	$page = $_SESSION['user'].".php";
 	if(isset($_POST['submit']))
 	{
+		$file = fopen($fn, "w");
+		fwrite($file, strip_tags($_POST["bio"]));
+		fclose($file);
+		$page = $_SESSION['user'].".php";
 		header("Location: $page");
 		exit;
 	}
 }
-
-fclose($file);
 ?>
 <div class="body-wrap">
 	<style scoped>
@@ -48,7 +47,7 @@ fclose($file);
 			<input type="submit" name="submit" value='Submit'>
 		</div>
 	</form>
-	<h3>Warning: Using back button will result in deleted information.</h3>
+	
 </div>
 </div>
 

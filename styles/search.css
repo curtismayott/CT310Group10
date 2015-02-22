@@ -15,13 +15,11 @@
 	float:left;
 	padding:2%;
 	overflow: hidden;
-	position: relative;
 }
 div.search-body{
 	background-color: white;
 	background:rgba(255,255,255,0.3);
 	color:#0155B5;
-	position: relative;
 	padding:2%;
 	height:8vh;
 
@@ -46,14 +44,12 @@ div.search-body{
 	float:left;
 	padding:2%;
 	overflow: auto;
-	position: relative;
 	margin-bottom: 5%;
 }
 div.results-body{
 	background-color: white;
 	background:rgba(255,255,255,0.3);
 	color:#FC0019;
-	position: relative;
 	min-height:inherit;
 	padding:2%;
 	overflow: auto;

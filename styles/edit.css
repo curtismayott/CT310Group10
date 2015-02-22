@@ -14,7 +14,6 @@ div.block {
 	float:left;
 	padding:2%;
 	overflow: auto;
-	position: relative;
 	color:red;
 }
 div.denied {

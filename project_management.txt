@@ -28,7 +28,12 @@ Curtis::
 working on header css.
 
 Brandi::
-
+header.php, footer.php and corresponding .css file
+index.php (homepage) and hompage.css
+Thumbnail images and links
+Profile pages and corresponding .css file
+Read and write of profile information
+Sanitize user input
 
 David::
 working on allowing bio's to be edited by selected ip addresses

@@ -1,3 +1,6 @@
+.body-wrap{
+	color: blue;
+}
 .left-wrap{
 	background: url("../../img/mario%20left.png") repeat;
 	background-size: 40%;

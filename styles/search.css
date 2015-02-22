@@ -1,0 +1,75 @@
+.body-wrap{
+	background: url("../../img/mario%20left.png") repeat;
+	background-size: 40%;
+	background-color:#0082C3;
+	margin-top:11vh;
+	min-height:100vh;
+	width:100%;
+	float:left;
+	overflow: auto;
+	color: blue;
+}
+.search{
+	height:10vh;
+	width:96%;
+	float:left;
+	padding:2%;
+	overflow: hidden;
+	position: relative;
+}
+div.search-body{
+	background-color: white;
+	background:rgba(255,255,255,0.3);
+	color:#0155B5;
+	position: relative;
+	padding:2%;
+	height:8vh;
+
+}
+.button input[type="submit"] {
+	background-color:#ed8223;
+	color:#fff;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:18px;
+	line-height:30px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border:0;
+	text-shadow:#C17C3A 0 -1px 0;
+	width:120px;
+	height:32px
+}     
+.results{
+	min-height:30vh;
+	width:96%;
+	float:left;
+	padding:2%;
+	overflow: auto;
+	position: relative;
+	margin-bottom: 5%;
+}
+div.results-body{
+	background-color: white;
+	background:rgba(255,255,255,0.3);
+	color:#FC0019;
+	position: relative;
+	min-height:inherit;
+	padding:2%;
+	overflow: auto;
+
+}
+div.results img{
+	border-width:medium;
+	border-color:#FCDE0C;
+	border-style:solid;
+	margin-top:10px;
+	width: 10%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	float: top;
+}

@@ -40,5 +40,5 @@ David::
 working on allowing bio's to be edited by selected ip addresses
 
 NEED::
-Search results page which lists a thumbnail and name of all users
+Implement search(not completely necessary for this assignment)
 test ip checking with school ips (location of ip checking is in editBio.php and editLikes.php)
